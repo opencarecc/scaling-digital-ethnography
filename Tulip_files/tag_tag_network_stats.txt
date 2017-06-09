@@ -1,0 +1,70 @@
+without research question:
+    nodes: 1033
+    edges: 12335
+    avg degree: 23.881897386
+    composition: 34 singletons, 6 diades, 1 triad, main component
+        main component:
+            nodes: 984
+            edges: 12139
+            avg degree: 24.672764228
+            avg clustering: 0.695397
+            avg path length: 2.61207
+            #louvain clusters: 10
+            louvain modularity: 0.393522
+
+co-occurrence >= 2:
+    nodes: 446
+    edges: 1648
+    avg degree: 7.390134529
+    composition: 12 diades, 2 triolets, 1 triad, main component
+        main component:
+            nodes: 413
+            edges: 1620
+            avg degree: 7.84503632
+            avg clustering: 0.437135
+            avg path length: 3.16806
+            #louvain clusters: 12
+            louvain modularity: 0.454166
+
+co-occurrence >= 3:
+    nodes: 214
+    edges: 450
+    avg degree: 4.205607477
+    composition: 8 diades, 1 subgraph (9n, 19e), main component
+        main component:
+            nodes: 189
+            edges: 421
+            avg degree: 4.502673797
+            avg clustering: 0.322124
+            avg path length: 3.33705
+            #louvain clusters: 9
+            louvain modularity: 0.543345
+
+co-occurrence >= 4:
+    nodes: 107
+    edges: 182
+    avg degree: 3.401869159
+    composition: 3 diades, 1 chain of 4, 1 quadriad, main component
+        main component:
+            nodes: 93
+            edges: 172
+            avg degree: 3.698924731
+            avg clustering: 0.331113
+            avg path length: 3.13324
+            #louvain clusters: 7
+            louvain modularity: 0.539954
+
+co-occurrence >= 5:
+    nodes: 65
+    edges: 91
+    avg degree: 2.8
+    composition: 3 diades, 1 triad, main component
+        main component:
+            nodes: 56
+            edges: 85
+            avg degree: 3.035714286
+            avg clustering: 0.290843
+            avg path length: 3.05325
+            #louvain clusters: 6
+            louvain modularity: 0.568304
+

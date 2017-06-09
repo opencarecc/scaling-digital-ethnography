@@ -1,0 +1,21 @@
+nodes: 249
+edges: 1007
+avg degree: 8.08835341365
+avg clustering: 0.523178
+avg path length: 2.45097
+#louvain clusters: 12
+louvain modularity: 0.334819
+
+without community managers:
+    nodes: 246
+    edges: 502
+    avg degree: 
+    composition: 57 singletons, 1 pentade, main component
+        main component:
+            nodes: 184
+            edges: 487
+            avg degree: 5.293478261
+            avg clustering: 0.257827
+            avg path length: 3.89748
+            #louvain clusters: 12
+            louvain modularity: 0.551236
