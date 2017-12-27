@@ -1,10 +1,4 @@
 
-Compute conditional probabilities p_i,j = m_i,j / m_i
-where m_i = probability for an edge to belong to subgraph H_F
-p_j,i = m_i,j / m_j
-where m_j = probability for an edge to belong to subgraph H_F'
-
-
 # SSCR network comparison experiment
 This is a note describing the methods used to compare the different filtering schemes applied to code co-occurrence graphs. We switch to this terminology and drop the use of the term tag which denotes a specific entity in Discourse.
 
@@ -86,3 +80,7 @@ $$\sum_{c_1 - p - c_2} \frac{1}{n_p}$$
 
 tat is a code with higher degree contributes a smaller value to each of the edge it induces. The difference in how subgraphs are filtered is striking.
 
+### Comparing subgraphs
+(Ongoing)
+Compute conditional probabilities $$p_{i,j} = m_{i,j} / m_i$$ where $$m_i =$$ probability for an edge to belong to subgraph $$G_i$$ and $$m_{i,j} =$$ equals the probability for an edge to be part of both $$G_i$$ and $$G_j$$.
+The value $$p_{i,j}$$ then is the probability for an edge to be part of $$G_j$$ *given that* it is part of $$G_i$$. 
