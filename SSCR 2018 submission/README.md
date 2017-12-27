@@ -88,7 +88,9 @@ tat is a code with higher degree contributes a smaller value to each of the edge
 
 *How to read these curves*:
 
-* the curves map the pair (number of nodes, number of edges) to the $$(x, y)$$ position of points. As the threshold goes up, these values go down
+* The curves map the pair (number of nodes, number of edges) to the $$(x, y)$$ position of points. As the threshold goes up, these values go down so the curve should be read from top right towards bottom left.
+* The data is accessible from the accompanying csv file (curves_whole.csv).
+* The shape of the curve for the standard (no k-core) uniform weighting scheme does explain why the cursor to filter edges is so hard to use with GraphRyder.
 
 ![Edge filtered using uniform standard edge weight](Uniform_edge_filtering.png) ![Edge filtered using uniform standard edge weight](Giatsidis_edge_filtering.png)
 
@@ -105,5 +107,5 @@ Another option we have explored is to filter code graphs according to the k-core
 
 ### Comparing subgraphs
 (Ongoing)
-Compute conditional probabilities $$p_{i,j} = m_{i,j} / m_i$$ where $$m_i =$$ probability for an edge to belong to subgraph $$G_i$$ and $$m_{i,j} =$$ equals the probability for an edge to be part of both $$G_i$$ and $$G_j$$.
+Compute conditional probabilities $$p_{i,j} = m_{i,j} / m_i$$ where $$m_i =$$ probability for an edge to belong to subgraph $$G_i$$ and $$m_{i,j} =$$ the probability for an edge to be part of both $$G_i$$ and $$G_j$$.
 The value $$p_{i,j}$$ then is the probability for an edge to be part of $$G_j$$ *given that* it is part of $$G_i$$. 
